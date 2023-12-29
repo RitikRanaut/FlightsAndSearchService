@@ -37,3 +37,12 @@
 ```
 
 - Once you added db config as listed above go to src folder in terminal and execute `npx sequelize db:create`
+
+## DB Design
+    - Airplane Table   
+    - Flight Table     
+    - Airport
+
+    - A Flight belong to an airplane but one airplane can be used in multiple flights. 
+    - A city has many Airports but one Airport belong to one city.
+    - One Airport can have many flights, but a flight belongs to one Airport. 
